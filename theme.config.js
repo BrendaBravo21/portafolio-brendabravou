@@ -1,21 +1,16 @@
-const YEAR = new Date().getFullYear()
-
 export default {
-  footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
-      <style jsx>{`
-        a {
-          float: right;
-        }
-        @media screen and (max-width: 480px) {
-          article {
-            padding-top: 2rem;
-            padding-bottom: 4rem;
-          }
-        }
-      `}</style>
-    </small>
-  )
+  author: 'Brenda Bravo — Inge Brendy',
+  title: 'Brenda Bravo | Ingeniera en Computación • Integraciones • BIAN • SPEI • Arquitectura',
+  description:
+    'Ingeniera en Computación (21 años) especializada en Integraciones, Arquitectura bancaria, SPEI, BIAN, APIs, microservicios y STEM Edutainment.',
+  
+  // Redes profesionales
+  email: 'brendabravou@gmail.com',
+  github: 'https://github.com/BrendaBravo21',
+  linkedin: 'https://www.linkedin.com/in/brendabravou/',
+  
+  // Opciones visuales
+  themeSwitch: true,
+  footerText: '© 2025 Brenda Bravo — Inge Brendy Sci-Tainment',
 }
+
